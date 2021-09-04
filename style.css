@@ -1,0 +1,19 @@
+ div{
+     display: flex;
+     flex-direction: row;
+     justify-content:space-around;
+  }
+
+
+  /*********** Media Query ******/
+  @media screen and (max-width:500px) {
+      div{
+        display: flex;
+        flex-direction: column;
+     
+      }
+      img{
+          width: 80%;
+          margin-left: 3rem;          }
+      
+  }
